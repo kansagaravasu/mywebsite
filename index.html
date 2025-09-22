@@ -3,37 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
+    <title>Attractive Homepage</title>
+    <!-- Link to Google Fonts for modern typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Link to the custom CSS file -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Welcome to My Website</h1>
-        <p> you are on the right website for everthing you want.</p>
+    <!-- Header and Navigation -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Your Brand</a>
+            <nav class="navbar">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section>
-            <h2>About This Page</h2>
-            <p>
-                This is a sample website built with HTML and CSS.
-                It includes a basic header, a main content section, and a footer.
-            </p>
-        </section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container content">
+            <h1>Welcome to Our Website</h1>
+            <p>Experience a new level of quality and service with our innovative solutions.</p>
+            <a href="#" class="cta-button">Learn More</a>
+        </div>
+    </section>
 
-        <section>
-            <h2>My Goals</h2>
-            <ul>
-                <li>Learn web development basics</li>
-                <li>Understand HTML structure</li>
-                <li>Practice CSS styling</li>
-            </ul>
-        </section>
-    </main>
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2>Our Key Features</h2>
+            <div class="feature-grid">
+                <div class="card">
+                    <h3>Feature One</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+                </div>
+                <div class="card">
+                    <h3>Feature Two</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+                </div>
+                <div class="card">
+                    <h3>Feature Three</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <footer>
-        <p>&copy; 2025 My First Website</p>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Your Brand. All rights reserved.</p>
+        </div>
     </footer>
 
 </body>
