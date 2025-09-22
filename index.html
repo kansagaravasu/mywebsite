@@ -3,66 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my first website</title>
-    <!-- Link to Google Fonts for modern typography -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <!-- Link to the custom CSS file -->
+    <title>Student Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header and Navigation -->
-    <header class="header">
+    <header>
         <div class="container">
-            <a href="#" class="logo">Your Brand</a>
-            <nav class="navbar">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Contact</a>
+            <h1>Your Name</h1>
+            <p>Computer Science Student | Web Developer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
             </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container content">
-            <h1>Welcome to Our Website</h1>
-            <p>Experience a new level of quality and service with our innovative solutions.</p>
-            <a href="#" class="cta-button">Learn More</a>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="features">
-        <div class="container">
-            <h2>Our Key Features</h2>
-            <div class="feature-grid">
-                <div class="card">
-                    <h3>Feature One</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
-                </div>
-                <div class="card">
-                    <h3>Feature Two</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
-                </div>
-                <div class="card">
-                    <h3>Feature Three</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+    <main>
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <img src="https://via.placeholder.com/150" alt="Your Profile Picture" class="profile-pic">
+                    <p>I am a college student passionate about coding and web development. I enjoy building projects that solve real-world problems and constantly strive to improve my skills in HTML, CSS, JavaScript, and more.</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
-    <footer class="footer">
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Project One</h3>
+                        <p>A brief description of your project.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project Two</h3>
+                        <p>Another project description.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project Three</h3>
+                        <p>A third project to showcase your work.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>React</li>
+                    <li>Git & GitHub</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
         <div class="container">
-            <p>&copy; 2025 Your Brand. All rights reserved.</p>
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
         </div>
     </footer>
 
 </body>
 </html>
-
